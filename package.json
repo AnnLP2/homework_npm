@@ -1,0 +1,31 @@
+{
+  "name": "homework_npm",
+  "version": "1.0.0",
+  "description": "1) Создаем репозиторий на github \r 2) Через консоль клонируем его себе на ПК \r 3) Через консоль создаем файл index.js в корне проекта \r 4) В этом файле реализовать функции: суммирования, вычитания и умножения \r 5) Инициализируем npm (npm init) и заполняем все поля \r 6) Устанавливаем в проект пакет lodash \r 7) Создаем файл .gitignore и добавляем в него все, что не должно попасть на github это точно папка node_modules и другие системные папки которые у вам есть, например .vscode , .idea \r 8) Добавьте prettier в проект \r 9) Запустите его через npx, посмотрите какие файлы были изменены \r 10) Установите eslint в проект \r 11) Выполните инициализацию с правилами airbnb \r 12) Запустите линтер на файлах проекта, исправьте замечания \r 13) Через командую строку заливаем все что накодили на github",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnLP2/homework_npm.git"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "AnnLP2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnLP2/homework_npm/issues"
+  },
+  "homepage": "https://github.com/AnnLP2/homework_npm#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.8.5"
+  }
+}
